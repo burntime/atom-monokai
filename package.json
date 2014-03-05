@@ -3,8 +3,8 @@
   "theme": "syntax",
   "version": "0.0.0",
   "private": true,
-  "description": "A short description of your theme",
-  "repository": "https://github.com/atom/atom-monokai",
+  "description": "Atom syntax theme inspired by monokai. Works with Atom Dark and Light UI.",
+  "repository": "https://github.com/burntime/atom-monokai",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
