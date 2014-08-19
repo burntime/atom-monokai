@@ -3,7 +3,7 @@
   "theme": "syntax",
   "version": "0.3.0",
   "private": true,
-  "description": "Atom syntax theme inspired by monokai. Works with Atom Dark and Light UI.",
+  "description": "Atom syntax theme inspired by monokai. Works with Atom Dark, Light and Seti UI.",
   "repository": {
     "type": "git",
     "url": "https://github.com/burntime/atom-monokai"
@@ -12,7 +12,7 @@
   "engines": {
     "atom": ">0.50.0"
   },
-  "readme": "# atom-monokai theme\n\nAtom syntax theme inspired by [monokai](http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/).\nWorks with Atom Dark and Light UI.\n\n![](https://raw.github.com/burntime/atom-monokai/master/screenshot.png)\n",
+  "readme": "# atom-monokai theme\n\nAtom syntax theme inspired by [monokai](http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/).\nWorks with Atom Dark, Light and Seti UI.\n\n![](https://raw.github.com/burntime/atom-monokai/master/screenshot.png)\n",
   "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/burntime/atom-monokai/issues"
