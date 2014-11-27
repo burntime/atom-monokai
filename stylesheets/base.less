@@ -3,12 +3,12 @@
 @import "mixin";
 @import "keyframes";
 
-.editor-colors {
+.editor-colors, :host {
   .base-background (@base);
   .base-text-color (@base);
 }
 
-.editor {
+.editor, :host {
   .invisible-character,
   .indent-guide {
     color: fade(@text-color, 20%);
