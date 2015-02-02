@@ -3,12 +3,11 @@
 @import "mixin";
 @import "keyframes";
 
-.editor-colors, :host {
+.atom-text-editor, :host {
+
   .base-background (@base);
   .base-text-color (@base);
-}
 
-.editor, :host {
   .invisible-character,
   .indent-guide {
     color: fade(@text-color, 20%);
@@ -28,11 +27,6 @@
     color: @magenta;
   }
 
-  .cursors.blink-off .cursor{
-    visibility: visible !important;
-    border-left: 1px solid @base;
-  }
-
   .selection .region {
     background-color: fade(@red, 20%);
   }
@@ -42,7 +36,7 @@
   }
 }
 
-.bracket-matcher {
+.bracket-matcher .region {
   background-color: @text-color-highlight;
   opacity: 0.2;
 }
