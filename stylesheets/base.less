@@ -28,7 +28,17 @@
   }
 
   .selection .region {
-    background-color: fade(@red, 20%);
+    background-color: fade(@red, 30%);
+  }
+
+  .highlights {
+    .current-result .region{
+      background-color: fade(@blue, 60%);
+    }
+
+    .find-result .region {
+      border-bottom: 1px dotted fade(@blue, 90%) !important;
+    }
   }
 
   .line-number.cursor-line-no-selection {
