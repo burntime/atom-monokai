@@ -11,7 +11,7 @@ Atom syntax theme inspired by [monokai](http://www.monokai.nl/blog/2006/07/15/te
 ```
 apm install atom-monokai
 ```
-## Tested width:
+## Tested with:
 * Atom Dark & Light UI
 * One Dark & Light
 * Seti UI
