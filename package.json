@@ -3,7 +3,7 @@
   "theme": "syntax",
   "version": "0.9.0",
   "private": true,
-  "description": "Atom syntax theme inspired by monokai. Works with Atom Dark, Light and Seti UI.",
+  "description": "Monokai syntax theme for Atom Dark & Light UI, One Dark & Light, and Seti UI",
   "repository": {
     "type": "git",
     "url": "https://github.com/burntime/atom-monokai"
