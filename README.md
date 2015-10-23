@@ -18,6 +18,9 @@ apm install atom-monokai
 
 Changelog:
 
+* 0.9.2
+  * fix markdown preview
+
 * 0.9.1
   * update readme.md and package.json
 
