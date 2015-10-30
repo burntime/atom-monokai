@@ -1,18 +1,15 @@
-.tab-bar {
-  .active {
-    background-color: darken(@base, 5%) !important;
-    &:after {
-      border-bottom-color: transparent !important;
-    }
-    .title {
-      color: @text;
+.theme-one-dark-ui,
+.theme-one-light-ui {
+  .tab-bar {
+    .active {
       background-color: darken(@base, 5%) !important;
+      &:after {
+        border-bottom-color: transparent !important;
+      }
+      .title {
+        color: @text;
+        background-color: darken(@base, 5%) !important;
+      }
     }
   }
-}
-.theme-atom-dark-ui .tab-bar .active .title {
-    background-color: transparent !important;
-}
-.theme-atom-light-ui .tab-bar .active .title {
-    background-color: #f0f0f0 !important;
 }
