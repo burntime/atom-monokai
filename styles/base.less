@@ -69,8 +69,12 @@
   color: @storage;
 }
 
-.storage.type {
+.storage.type, .support.type.stdint, .support.type.sys-types {
   color: @green;
+}
+
+.support.function.any-method, .support.function.C99 {
+  color: @functionCall;
 }
 
 .constant {
