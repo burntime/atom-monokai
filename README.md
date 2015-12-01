@@ -20,6 +20,9 @@ apm install atom-monokai
 
 Changelog:
 
+* 0.9.7
+  * Added highlighting of stdint, and functions
+
 * 0.9.6
   * update Changelog
 
