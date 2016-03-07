@@ -1,13 +1,20 @@
-@import "ui-variables";
-@import "colors";
-@import "mixin";
-@import "keyframes";
-@import "markdown";
-
 .atom-text-editor, :host {
+  color: @text-color;
 
-  .base-background (@base);
-  .base-text-color (@base);
+  .monokai-background() when (lightness(@base-background-color) < 50%) {
+    @monokai-background: darken(@base-background-color, 5%);
+  }
+
+  .monokai-background() when (lightness(@base-background-color) >= 50%) {
+    @monokai-background: lighten(@base-background-color, 2%);
+  }
+
+  .monokai-background();
+
+  background: @monokai-background;
+
+  @syntax-fg: @text-color;
+  @syntax-bg: @monokai-background;
 
   .invisible-character,
   .indent-guide {

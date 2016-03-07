@@ -1,17 +1,17 @@
-.base-background (@color) when (lightness(@color) < 50%) {
-  background-color: darken(@base-background-color, 5%);
+.base-background(@color) when (lightness(@color) < 50%) {
+  @base-background: darken(@base-background-color, 5%);
 }
 
-.base-background (@color) when (lightness(@color) >= 50%) {
-  background-color: lighten(@base-background-color, 2%);
+.base-background(@color) when (lightness(@color) >= 50%) {
+  @base-background: lighten(@base-background-color, 2%);
 }
 
-.base-text-color (@color) when (lightness(@color) < 50%) {
-  color: lighten(@text-color, 20%);
+.base-text-color(@color) when (lightness(@color) < 50%) {
+  @base-text-color: lighten(@text-color, 20%);
 }
 
-.base-text-color (@color) when (lightness(@color) >= 50%) {
-  color: darken(@text-color, 20%);
+.base-text-color(@color) when (lightness(@color) >= 50%) {
+  @base-text-color: darken(@text-color, 20%);
 }
 
 .string-color(@color) when (lightness(@color) < 50%) {
