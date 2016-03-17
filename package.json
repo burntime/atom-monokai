@@ -1,7 +1,7 @@
 {
   "name": "atom-monokai",
   "theme": "syntax",
-  "version": "0.9.7",
+  "version": "0.10.0",
   "private": true,
   "description": "Monokai syntax theme for Atom Dark, One Dark, Seti UI and other",
   "repository": {
