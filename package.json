@@ -3,7 +3,7 @@
   "theme": "syntax",
   "version": "0.9.7",
   "private": true,
-  "description": "Monokai syntax theme for Atom Dark & Light UI, One Dark & Light, and Seti UI",
+  "description": "Monokai syntax theme for Atom Dark, One Dark, Seti UI and other",
   "repository": {
     "type": "git",
     "url": "https://github.com/burntime/atom-monokai"
@@ -16,9 +16,7 @@
     "monokai",
     "seti-ui",
     "dark",
-    "light",
-    "syntax",
-    "adaptive"
+    "syntax"
   ],
   "readme": "# atom-monokai theme\n\nAtom syntax theme inspired by [monokai](http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/).\nWorks with Atom Dark, Light and Seti UI.\n\n![](https://raw.github.com/burntime/atom-monokai/master/screenshot.png)\n",
   "readmeFilename": "README.md",
