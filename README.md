@@ -20,7 +20,7 @@ apm install atom-monokai
 
 Changelog:
 
-* 0.9.8
+* 0.10.0
   * Some color adjustments
   * Add syntax-variables
   * Remove Light UI support for now :(
