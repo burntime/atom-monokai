@@ -1,20 +1,10 @@
 .atom-text-editor, :host {
-  color: @text-color;
-
-  .monokai-background() when (lightness(@base-background-color) < 50%) {
-    @monokai-background: darken(@base-background-color, 5%);
-  }
-
-  .monokai-background() when (lightness(@base-background-color) >= 50%) {
-    @monokai-background: lighten(@base-background-color, 2%);
-  }
-
-  .monokai-background();
-
-  background: @monokai-background;
 
   @syntax-fg: @text-color;
-  @syntax-bg: @monokai-background;
+  @syntax-bg: darken(@base-background-color, 4%);
+
+  color: @syntax-fg;
+  background: @syntax-bg;
 
   .invisible-character,
   .indent-guide {
