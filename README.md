@@ -20,6 +20,9 @@ apm install atom-monokai
 
 Changelog:
 
+* 0.10.4
+  * color for .support.type.exception #10
+
 * 0.10.3
   * Fix recursive variable definition #9
 
