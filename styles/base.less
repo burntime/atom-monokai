@@ -1,9 +1,7 @@
-.atom-text-editor, :host {
-
-  @syntax-bg: darken(@base-background-color, 4%);
-
+.atom-text-editor,
+atom-text-editor {
   color: @text-color;
-  background: @syntax-bg;
+  background: darken(@base-background-color, 4%);
 
   .invisible-character,
   .indent-guide {
@@ -48,73 +46,77 @@
   opacity: 0.2;
 }
 
-.comment {
+.syntax--comment {
   color: fade(@text, 50%);
 }
 
-.entity {
+.syntax--entity {
   color: @entity;
 }
 
-.keyword {
+.syntax--keyword {
   color: @keyword;
   font-weight: bold;
 }
 
-.storage {
+.syntax--storage {
   color: @storage;
 }
 
-.storage.type, .support.type.stdint, .support.type.sys-types {
+.syntax--storage.syntax--type,
+.syntax--support.syntax--type.syntax--stdint,
+.syntax--support.type.sys-types {
   color: @green;
 }
 
-.support.function.any-method, .support.function.C99 {
+.syntax--support.syntax--function.syntax--any-method,
+.syntax--support.syntax--function.syntax--C99 {
   color: @functionCall;
 }
 
-.support.type.exception {
+.syntax--support.syntax--type.syntax--exception {
   color: @variable;
 }
 
-.constant {
+.syntax--constant {
   color: @constant;
 
-  &.numeric,
-  &.boolean {
+  &.syntax--numeric,
+  &.syntax--boolean {
     color: @boolean;
   }
 }
 
-.variable {
+.syntax--variable {
   color: @variable;
 }
 
-.delimiter, .brace {
+.syntax--delimiter,
+.syntax--brace {
   color: @text;
 }
 
-.invalid.deprecated {
+.syntax--invalid.syntax--deprecated {
   text-decoration: underline;
   color: @red;
 }
 
-.invalid.illegal {
+.syntax--invalid.syntax--illegal {
   color: @red;
 }
 
-.string {
+.syntax--string {
   .string-color(@base);
 
-  .constant.character.escape {
+  .syntax--constant.syntax--character.syntax--escape {
     color: @red;
   }
 
-  &.regexp {
+  &.syntax--regexp {
     color: @cyan;
 
-    .source.ruby.embedded,
-    .string.regexp.arbitrary-repitition {
+    .syntax--source.syntax--ruby.syntax--embedded,
+    .syntax--string.syntax--regexp.syntax--arbitrary-repitition {
       color: @red;
     }
   }
