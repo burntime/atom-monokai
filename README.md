@@ -1,4 +1,4 @@
-# atom-monokai theme
+# atom-monokai theme [![Build Status](https://travis-ci.org/burntime/atom-monokai.svg?branch=master)](https://travis-ci.org/burntime/atom-monokai)
 
 Atom syntax theme inspired by [monokai](http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/).
 
