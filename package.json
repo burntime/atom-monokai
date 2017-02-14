@@ -29,5 +29,14 @@
     "shasum": "4cd9c25def7cd564111f923a3c8e817175abdf4c"
   },
   "_resolved": "/var/folders/pd/_p2h1mfd2jbgg439_gq3gkncsn_r_0/T/d-11425-73186-yp16hc/package.tgz",
-  "_from": "/var/folders/pd/_p2h1mfd2jbgg439_gq3gkncsn_r_0/T/d-11425-73186-yp16hc/package.tgz"
+  "_from": "/var/folders/pd/_p2h1mfd2jbgg439_gq3gkncsn_r_0/T/d-11425-73186-yp16hc/package.tgz",
+  "scripts": {
+    "gulp": "gulp",
+    "test": "npm run gulp -- test"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-stylelint": "^3.8.0",
+    "stylelint-config-primer": "^1.4.0"
+  }
 }
