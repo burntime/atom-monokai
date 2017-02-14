@@ -17,8 +17,8 @@ atom-text-editor {
   }
 
   .gutter .line-number.folded,
-  .gutter .line-number:after,
-  .fold-marker:after {
+  .gutter .line-number::after,
+  .fold-marker::after {
     color: @magenta;
   }
 
@@ -27,7 +27,7 @@ atom-text-editor {
   }
 
   .highlights {
-    .current-result .region{
+    .current-result .region {
       background-color: fade(@blue, 60%);
     }
 
@@ -55,8 +55,8 @@ atom-text-editor {
 }
 
 .syntax--keyword {
-  color: @keyword;
   font-weight: bold;
+  color: @keyword;
 }
 
 .syntax--storage {
@@ -97,8 +97,8 @@ atom-text-editor {
 }
 
 .syntax--invalid.syntax--deprecated {
-  text-decoration: underline;
   color: @red;
+  text-decoration: underline;
 }
 
 .syntax--invalid.syntax--illegal {

@@ -1,3 +1,9 @@
 {
-  "extends": "stylelint-config-primer"
+  "extends": "stylelint-config-primer",
+  "rules": {
+    "selector-no-type": null,
+    "color-hex-case": "upper",
+    "selector-max-compound-selectors": 4,
+    "selector-max-specificity": "0,5,0"
+  }
 }
