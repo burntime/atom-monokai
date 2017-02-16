@@ -20,6 +20,9 @@ apm install atom-monokai
 
 Changelog:
 
+* 0.10.9
+  * colorful markdown output #16
+
 * 0.10.5
   * change deprecated selectors #12
   * fix recursive variable definition #9
