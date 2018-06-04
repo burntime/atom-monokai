@@ -1,4 +1,5 @@
 # atom-monokai theme [![Build Status](https://travis-ci.org/burntime/atom-monokai.svg?branch=master)](https://travis-ci.org/burntime/atom-monokai)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fburntime%2Fatom-monokai.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fburntime%2Fatom-monokai?ref=badge_shield)
 
 Atom syntax theme inspired by [monokai](http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/).
 
@@ -59,3 +60,7 @@ Changelog:
 
 * 0.9.0
   * fix editor tab navigation
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fburntime%2Fatom-monokai.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fburntime%2Fatom-monokai?ref=badge_large)
